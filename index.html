@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Forum</a></li>
+            <button type="button">Login</button>
+        </ul>
+        
+        <ul>
+            <li><a href="#"><h2>GAMER'S PARADISE</h2></a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Forum</a></li>
+            <li class="hideOnMobile" ><button type="button"><a href="#">Login</a></button></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+        </ul>
+    </nav>
+
+    <div id="card-area">
+        <div class="wrapper">
+            <div class="box-area">
+                <div class="box">
+                    <img src="/assets/subway.jpg" alt="Subway Surfers Preview">
+                    <div class="overlay">
+                        <h3>Subway Surfers</h3>
+                        <p>Subway Surfers is an addictive endless runner game where players dodge trains, collect coins, and unlock new characters while being chased by a grumpy inspector.</p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/assets/sniper.jpg" alt="Sniper 3D Preview">
+                    <div class="overlay">
+                        <h3>Sniper 3D</h3>
+                        <p>Sniper 3D is a mobile game where players snipe targets, complete missions, and customize their weapons. It features realistic graphics and a global leaderboard.</p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="/assets/templerun (3).jpg" alt="Temple Run Preview">
+                    <div class="overlay">
+                        <h3>Temple Run</h3>
+                        <p>Temple Run is an endless runner game where players dodge obstacles, collect coins, and unlock new characters while being chased through a temple.</p>
+                        <a href="#">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div align="center"><h2>Game Area</h2>
+        <p class="para">Gaming can be a great way to relax, have fun, and connect with friends. 
+            Whether you're playing solo or with a group, there's something for everyone to enjoy. 
+            From thrilling adventures to competitive challenges, gaming offers endless possibilities for 
+            entertainment and enjoyment. So grab your controller, sit back, and 
+            get ready for a fun-filled gaming experience!</p>
+    </div>
+    <div class="container">
+        <div class="img" align="center">
+            <img src="/assets/candy.webp" height="400px" width="284px" alt="Candy Crush Preview">
+            <h3>Candy Crush</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/coc.jpg" height="400px" width="284px" alt="Clash of Clans Preview">
+            <h3>Clash of Clans</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/ff.jpg" height="400px" width="284px" alt="Free Fire Preview">
+            <h3>Free Fire</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/bgmi.jpg" height="400px" width="284px" alt="BGMI Preview">
+            <h3>BGMI</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/cod.webp" height="400px" width="284px" alt="Call of Duty Preview">
+            <h3>Call of Duty</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/bs.jpg" height="400px" width="284px" alt="Bomb Squad Preview">
+            <h3>Bomb Squad</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/cr.png" height="400px" width="284px" alt="Chef Rescue Preview">
+            <h3>Chef Rescue</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+
+        <div class="img" align="center">
+            <img src="/assets/sg.webp" height="400px" width="284px" alt="Stumble Guys Preview">
+            <h3>Stumble Guys</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, in?</p>
+        </div>
+    </div>
+    <div class="contact" align="center">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Gaming Nexus – your ultimate destination for all things gaming! Whether you're a seasoned gamer or 
+                new to the world of video games,
+                 we’re here to bring you the latest and greatest in gaming entertainment.
+            </p>
+            <p class="optional">Our Mission  
+                At Gaming Nexus, our mission is to create a vibrant community where gamers can come together to explore, 
+                discuss, and enjoy their favorite games, consoles, and genres. We’re passionate about everything gaming and strive to provide 
+                a platform that caters to the diverse tastes and interests of our visitors.</p>
+
+        </div>
+
+        <div class="info">
+            <h2>Contact Details</h2><br>
+            <p>Email Address: yuvarajb.student@saveetha.ac.in</p>
+            <p>Phone Number: +91 9876543210</p>
+            <p><a href="https://www.linkedin.com/in/yuvarajb8/">LinkedIn</a></p>
+            <p><a href="https://github.com/yuvarajmonarch">GitHub</a></p>
+
+        </div>
+    </div>
+
+    <script>
+        function showSidebar(){
+            const sidebar=document.querySelector('.sidebar')
+            sidebar.style.display='flex'
+        }        
+        function hideSidebar(){
+            const sidebar=document.querySelector('.sidebar')
+            sidebar.style.display='none'
+        }
+    </script>
+
+</body>
+</html>
