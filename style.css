@@ -1,6 +1,8 @@
-*{
+* {
     margin: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0; /* Include this to reset padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
     min-height: 100vh;
@@ -14,12 +16,14 @@ button{
     border: none;
     background: #ea1538;
     margin-top: 7px;;
-    padding: 10px 20px;
+    padding: 10px 5px;
     border-radius: 60px;
     color: rgb(175, 164, 164);
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
+    /* margin-right: 40px; */
+    margin-left: 30px;
 }
 .para{
     padding: 10px 10px;
