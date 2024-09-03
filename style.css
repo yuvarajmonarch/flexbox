@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0; /* Include this to reset padding */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
     min-height: 100vh;
@@ -11,6 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Roboto', sans-serif;
 }
 button{
     border: none;
